@@ -18,4 +18,3 @@ figure = px.scatter(x=x, y=y, labels={'x': xaxis, 'y': 'Happiness'})
 st.plotly_chart(figure)
 
 
-print(df[3:])
